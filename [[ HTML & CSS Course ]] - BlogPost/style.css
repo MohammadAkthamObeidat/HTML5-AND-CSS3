@@ -49,8 +49,20 @@ h2 {
 
 #author{
     font-size: 22px;
+    float: left;
+    margin: 35px 0 0 10px;
 }
 .author-box{
     border-top: 1px solid grey;
-    padding-top: 20px;
+    padding: 20px 0 20px 0;
+}
+
+.author-box img{
+    height: 100px;
+    width: 100px;
+    border-radius:50%;
+    float: left;
+}
+.other{
+    margin-bottom: 40px;
 }
