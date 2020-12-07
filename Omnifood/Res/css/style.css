@@ -11,3 +11,26 @@ html{
     font-weight: 300;
     text-rendering: optimizeLegibility; /* This is to make our fonts get rendered in a perfect way */
 }
+
+.row{
+    max-width: 1140px;
+     margin: 0 auto; /* This is to CENTER the row: 0 for top and button; auto for right and left*/
+}
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/hero.jpg); /* Linear-Gradient is to add a transparent black layer on the top of our image*/
+    height: 100vh;
+    background-size: cover; /*To make the image shown fully*/
+    background-position: center;
+}
+
+.hero-text-box{
+    position: absolute;
+    width: 1140px;
+    top:50%; /* This is to center a div inside the page*/
+    left: 50%; /* This is to center a div inside the page*/
+    transform: translate(-50%, -50%) /* This is to center a div inside the page*/
+}
+h1{
+    margin: 0;
+}
