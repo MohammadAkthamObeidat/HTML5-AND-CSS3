@@ -106,7 +106,8 @@ h3 {
 }
 /* ------ BUTTONS ------ */
 .btn:link,
-.btn:visited {
+.btn:visited,
+input[type=submit] {
   display: inline-block;
   padding: 10px 30px;
   font-weight: 300;
@@ -117,13 +118,17 @@ h3 {
 }
 
 .btn:hover,
-.btn:active {
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active {
   border-color: #cf6d17;
   background-color: #cf6d17;
+  cursor: pointer;
 }
 
 .btn-full:link,
-.btn-full:visited {
+.btn-full:visited,
+input[type=submit] {
   color: #fff;
   background-color: #e67e22;
   margin-right: 50px;
@@ -395,21 +400,51 @@ cite img {
   font-size: 80%;
 }
 
-.plan-card ul{
+.plan-card ul {
   list-style: none;
 }
 
-.plan-card ul li{
+.plan-card ul li {
   margin: 5px 0;
 }
 
-.plan-card div:first-child{
+.plan-card div:first-child {
   background-color: #fcfcfc;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
 
-.plan-card div:last-child{
+.plan-card div:last-child {
   text-align: center;
   border: 0;
+}
+
+/* -------------------------------------------------------------------------- */
+/* CONTACT FORM*/
+/* -------------------------------------------------------------------------- */
+.contact-form {
+  width: 60%;
+  margin: 0 auto; /* This will center the form inside it's parent element  */
+}
+
+input[type=text], /* This will select only the inputs with type = text */
+input[type=email],
+select,
+textarea {
+  width: 100%;
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+textarea{
+  height: 100px;
+}
+
+input[type=checkbox]{
+  margin: 10px 5px 10px 0;
+}
+
+*:focus{
+  outline: none;
 }
