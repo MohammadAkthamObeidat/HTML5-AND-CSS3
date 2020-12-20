@@ -1,0 +1,181 @@
+/* Big tablets to 1200px (width smaller than the 1140px row*/
+@media only screen and (max-width: 1200px) {
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+
+  .row {
+    padding: 0 2%;
+  }
+}
+
+/* Small tablets to big tablets: from 768 to 1023px */
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 18px;
+  }
+  section {
+    padding: 16px 0;
+  }
+
+  .description {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .steps-box {
+    margin-top: 10px;
+  }
+  .work-steps {
+    margin-bottom: 40px;
+  }
+  .work-steps:first-child {
+    margin-top: 10px;
+  }
+  .work-steps:last-of-type {
+    margin-bottom: 40px;
+  }
+  .app-screen {
+    width: 45%;
+  }
+
+  .button-app img {
+    height: 49px;
+    width: auto;
+    margin-right: 20px;
+  }
+
+  .icons-small {
+    font-size: 100%;
+    margin-right: 5px;
+  }
+
+  .city-feature,
+  .twitter {
+    font-size: 80%;
+  }
+
+  .plan-card {
+    font-size: 85%;
+  }
+
+  .contact-form {
+    width: 80%;
+  }
+
+  .city {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  
+}
+
+/* Small phones to small tablets: from 481 to 767px */
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+
+  section {
+    padding: 13px 0;
+  }
+
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+
+  .main-nav {
+    display: none;
+  }
+
+  .row,
+  .hero-text-box {
+    padding: 0 4%;
+  }
+  .col {
+    width: 100%;
+    margin: 0 0 2% 0;
+  }
+
+  h1 {
+    font-size: 180%;
+  }
+
+  h2 {
+    font-size: 150%;
+  }
+  .description {
+    width: 100%;
+    margin: auto;
+  }
+
+  .app-screen {
+    text-align: center;
+  }
+
+  .apps-buttons {
+    text-align: center;
+  }
+
+  .work-steps {
+    margin-bottom: 20px;
+  }
+
+  .work-steps:last-of-type {
+    margin-bottom: 20px;
+  }
+
+  .work-steps div {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+    padding: 4px;
+  }
+
+  .plan-card div:last-child a {
+    margin-right: 0;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .city {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .btn, 
+  .btn-full,
+  .btn-ghost{
+      margin-bottom: 8px;
+      width: 50%;
+      text-align: center;
+  }
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+  section {
+    padding: 25px 0;
+  }
+  .contact-form {
+    width: 100%;
+  }
+
+  .city {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .btn, 
+  .btn-full,
+  .btn-ghost{
+      margin-bottom: 8px;
+      width: 70%;
+      text-align: center;
+  }
+}

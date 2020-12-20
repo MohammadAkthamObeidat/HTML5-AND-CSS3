@@ -7,12 +7,14 @@
   box-sizing: border-box;
 }
 
-html {
+html,
+body {
   color: #555;
   font-family: "Lato", "Arial", sans-serif;
   font-size: 20px;
   font-weight: 300;
   text-rendering: optimizeLegibility; /* This is to make our fonts get rendered in a perfect way */
+  overflow-x: hidden;;
 }
 
 /* These two classes to clear the float effects, we put them in the elements that used float */
@@ -272,6 +274,7 @@ header {
 .work-steps:last-of-type {
   margin-bottom: 60px;
 }
+
 .work-steps div {
   float: left;
   color: #e67e22;
@@ -292,6 +295,10 @@ header {
   margin-right: 20px;
 }
 
+.city-feature{
+  display: inline-block;
+}
+
 /* -------------------------------------------------------------------------- */
 /* Cites*/
 /* -------------------------------------------------------------------------- */
@@ -302,6 +309,8 @@ header {
   margin-bottom: 8px;
   background-size: cover; /*To make the image shown fully*/
   background-position: center;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .city-name {
@@ -368,7 +377,7 @@ cite img {
 }
 
 /* -------------------------------------------------------------------------- */
-/* Customers*/
+/* SIGN UP*/
 /* -------------------------------------------------------------------------- */
 .sign-up {
   background-color: #f4f4f4;
